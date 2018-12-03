@@ -1,20 +1,17 @@
-[![Jovo Framework](https://www.jovo.tech/img/github-logo.png)](https://www.jovo.tech)
+# My Weather
 
-<p align="center">Templates for the <a href="https://github.com/jovotech/jovo-framework-nodejs">Jovo Framework</a> ⭐️</p>
+An Alexa Skill / Google Action that informs the user of the weather forecast in his/her city. Ask My Weather what's the weather in Paris and you'll get it!
 
-<p align="center">
-<a href="https://www.jovo.tech/framework/docs/"><strong>Documentation</strong></a> -
-<a href="https://github.com/jovotech/jovo-cli"><strong>CLI </strong></a> - <a href="https://github.com/jovotech/jovo-framework-nodejs/blob/master/CONTRIBUTING.md"><strong>Contributing</strong></a> - <a href="https://twitter.com/jovotech"><strong>Twitter</strong></a></p>
-<br/>
+## Local development
 
-# Template: Hello World
+Install the [jovo-cli](https://github.com/jovotech/jovo-cli) then, in the command line, type:
 
-Jovo Sample Voice App with a simple "Hello World!" + asking for the user's name. This is the default template for the `jovo new` command:
-
-```sh
-$ jovo new <directory>
-
-## Alternative
-$ jovo new <directory> --template helloworld
 ```
+  jovo run
+```
+
+## Sources
+
+*  [Jovo](https://www.jovo.tech/)
+*  [OpenWeatherMap API](https://openweathermap.org/current)
 
