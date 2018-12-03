@@ -1,0 +1,13 @@
+{
+	"alexaSkill": {
+		"nlu": {
+			"name": "alexa"
+		}
+	},
+	"endpoint": "https://webhook.jovo.cloud/99cf1cc7-741a-4a1e-bda9-a91b20c26d93",
+  "stages": {
+    "dev": {
+      "endpoint": "arn:aws:lambda:us-east-1:842859738903:function:myWeather"
+    }
+  }
+}

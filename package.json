@@ -1,0 +1,26 @@
+{
+  "name": "jovo-sample-voice-app-nodejs",
+  "version": "0.0.1",
+  "description": "A sample voice app that works with the Jovo framework",
+  "main": "index.js",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "jovo-framework": "^1.4.17",
+    "mocha": "^5.2.0",
+    "node-fetch": "^2.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha test --recursive --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jovotech/jovo-sample-voice-app-nodejs.git"
+  },
+  "author": "Jovo",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/jovotech/jovo-sample-voice-app-nodejs/issues"
+  },
+  "homepage": "https://github.com/jovotech/jovo-sample-voice-app-nodejs#readme"
+}
